@@ -1,0 +1,23 @@
+{
+    "name": "thiago/notification",
+    "description": "This is library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Rodrigues",
+            "email": "thiagonzo@gmail.com",
+            "homepage": "https://www.thiagonzo.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
